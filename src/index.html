@@ -4,10 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Meu aniversário de 19 anos começa em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Parque das Garças - Brasília
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        20/10/2024 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--futebol">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Futebol</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod ullam optio ex mollitia a consequatur, voluptate deserunt, nesciunt cumque quisquam. Quibusdam, mollitia officiis esse labore perspiciatis amet voluptatibus explicabo.
+                </p>
+            </div>
+            <img class="event__image" src="https://cdn.pixabay.com/photo/2014/10/14/20/24/football-488714_1280.jpg" alt="Futebol">
+        </div>
+    </section>
+    <section class="event event--cinema event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Cinema</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod ullam optio ex mollitia a consequatur, voluptate deserunt, nesciunt cumque quisquam. Quibusdam, mollitia officiis esse labore perspiciatis amet voluptatibus explicabo.
+                </p>
+            </div>
+            <img class="event__image" src="https://cdn.pixabay.com/photo/2017/07/13/23/11/cinema-2502213_1280.jpg" alt="Cinema">
+        </div>
+    </section>
+    <section class="event event--open-bar">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Open Bar</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod ullam optio ex mollitia a consequatur, voluptate deserunt, nesciunt cumque quisquam. Quibusdam, mollitia officiis esse labore perspiciatis amet voluptatibus explicabo.
+                </p>
+            </div>
+            <img class="event__image" src="https://cdn.pixabay.com/photo/2015/07/23/19/23/cocktail-857393_1280.jpg" alt="Open Bar">
+        </div>
+    </section>
+    <section class="event event--bufe event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Bufê</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod ullam optio ex mollitia a consequatur, voluptate deserunt, nesciunt cumque quisquam. Quibusdam, mollitia officiis esse labore perspiciatis amet voluptatibus explicabo.
+                </p>
+            </div>
+            <img class="event__image" src="https://cdn.pixabay.com/photo/2017/02/24/11/05/salad-bar-2094459_1280.jpg" alt="Bufê">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
